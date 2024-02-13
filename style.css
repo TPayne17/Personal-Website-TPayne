@@ -43,5 +43,25 @@ html, body {
     margin-right: 23px;
 }
 
+.h1 {
+    font-size: 30px;
+    font-family: Verdana, 'Courier New';
+    text-decoration: underline;
+    color: silver;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.h2 {
+    color: silver;
+    font-family: Franklin Gothic Medium;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+.img3 {
+    float: right;
+    margin-right: 10px;
+}
+
 
 
