@@ -1,0 +1,47 @@
+html, body {
+    background-color: rgb(48, 17, 187);
+    margin:0%;
+    padding:0%;
+}
+
+.header1 {
+    background-color: rgba(226, 217, 217, 0.897);
+    font-size: 30px;
+    font-family: Verdana, 'Courier New';
+    text-decoration: underline
+}
+.func1 {
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+.header2 {
+    background-color: rgba(226, 217, 217, 0.897);
+    min-height: 70vh;
+    padding-left: 100px;
+    padding-right: 115px; 
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.menu ul li {
+    float: right;
+    padding:1%;
+    margin:0%;
+    list-style: none;
+    display: flex;
+    gap: 7px;
+    color: white;
+    text-decoration: underline
+}
+
+.img2 {
+    float: right;
+    margin-top: 144px;
+    margin-right: 23px;
+}
+
+
+
