@@ -27,6 +27,7 @@ html, body {
 }
 
 /* Navigation Menu */
+
 .menu ul li {
     float: right;
     padding:1%;
@@ -44,42 +45,52 @@ html, body {
     margin-right: 23px;
 }
 
+
+/* About Styling */
+
 .h1 {
-    font-size: 30px;
-    font-family: Verdana, 'Courier New';
+    text-align: center;
+    font-size: 35px;
+    color: white;
     text-decoration: underline;
+}
+
+.container {
+   
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-left:225px;
+    margin-top: 10px;
+}
+
+.about1 {
+
+    border: black solid;
+    margin-right: 25px;
+}
+
+.about1 > h2 {
     color: silver;
     text-align: center;
-    padding-bottom: 15px;
-}
-.h2 {
-    color: silver;
-    font-family: Franklin Gothic Medium;
     text-decoration: underline;
-    padding-bottom: 15px;
 }
 
-.img3 {
-    float: right;
-    margin-right: 10px;
+.about1 > p {
+    color: silver;
+    text-align: center;
 }
 
-.p4 {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 35px;
-    margin-inline-end: 10px;
-
+.about1 > img {
+    margin-left: 50px;
 }
 
-.img4 {
-    float: right;
-    padding-right: 5px;
-    
 
-    /* Portfolio Styling */
-}
+
+
+
+
+/* Portfolio Styling */
 
 #success-header {
     font-weight: 100;
@@ -104,7 +115,7 @@ html, body {
 }
 
 .img6 {
-    padding-bottom: 200px;
+    padding-bottom: 20px;
 }
 
 .success:nth-of-type(2n) img {
@@ -124,4 +135,20 @@ footer .media-link {
     margin-left: 665px;
 
 }
+
+button {
+    margin-top: 5px;
+    border-radius: 10px;
+
+}
+
+.form {
+    margin-left: 255px;
+}
+
+label {
+    color: white;
+}
+
+
 
