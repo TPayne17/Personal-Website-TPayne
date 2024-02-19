@@ -60,8 +60,8 @@ html, body {
     display: flex;
     justify-content: center;
     width: 1000px;
-    margin-left:225px;
-    margin-top: 10px;
+    margin-left:275px;
+    margin-top: 50px;
 }
 
 .about1 {
@@ -84,6 +84,81 @@ html, body {
 .about1 > img {
     margin-left: 50px;
 }
+
+.about2 {
+
+    border: black solid;
+    margin-right: 25px;
+}
+
+.about2 > h2 {
+    color: silver;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about2 > p {
+    color: silver;
+    text-align: center;
+}
+
+.about2 > img {
+    margin-left: 50px;
+}
+
+.about3 {
+
+    border: black solid;
+    margin-right: 25px;
+    
+}
+
+.about3 > h2 {
+    color: silver;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about3 > p {
+    color: silver;
+    text-align: center;
+}
+
+.about3 > img {
+    margin-left: 50px;
+}
+
+div.red,
+div.yellow {
+    height: 120px;
+    width: 200px;
+}
+
+
+.red {
+    background-color: red;
+    border: 3px solid black;
+    padding-left: 5px;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    z-index: 2;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 3px solid black;
+    padding-left: 5px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: -45px;
+    z-index: 3;
+}
+
+
+
+
 
 
 
